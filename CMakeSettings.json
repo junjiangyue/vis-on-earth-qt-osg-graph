@@ -1,0 +1,32 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "OSG_ROOT",
+          "value": "C:/SDK/OpenSceneGraph-3.4.0-VC2015-64-NoArch",
+          "type": "PATH"
+        },
+        {
+          "name": "OSG_ROOT_DBG",
+          "value": "C:/SDK/OpenSceneGraph-3.4.0-VC2015-64-Debug",
+          "type": "PATH"
+        },
+        {
+          "name": "DATA_PATH_PREFIX",
+          "value": "C:/Users/shan/labcode/data",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
